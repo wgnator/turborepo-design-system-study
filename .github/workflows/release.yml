@@ -18,10 +18,10 @@ jobs:
       - name: Setup Node.js 18.x
         uses: actions/setup-node@v2
         with:
-          node-version: 18
+          node-version: 18.13.0
 
       - name: Install Dependencies
-        run: yarn
+        run: npm install
 
       - name: Creating .npmrc
         run: |
@@ -37,7 +37,7 @@ jobs:
         uses: changesets/action@v1
         with:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: yarn release
+          publish: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
 
