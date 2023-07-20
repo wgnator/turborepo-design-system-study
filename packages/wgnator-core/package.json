@@ -16,9 +16,9 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@wgnator/tsconfig": "*",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
+    "@wgnator/tsconfig": "*",
     "eslint": "^8.15.0",
     "eslint-config-wgnator": "*",
     "react": "^18.1.0",
