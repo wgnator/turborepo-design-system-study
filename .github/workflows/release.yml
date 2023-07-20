@@ -26,7 +26,7 @@ jobs:
       - name: Creating .npmrc
         run: |
           cat << EOF > "$HOME/.npmrc"
-            @scope:registry=https://npm.pkg.github.com
+            @wgnator:registry=https://npm.pkg.github.com
             //npm.pkg.github.com/:_authToken=$TOKEN_GITHUB
           EOF
         env:
