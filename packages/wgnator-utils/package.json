@@ -26,6 +26,10 @@
     "typescript": "^4.5.3"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgnator/turborepo-design-system-study.git"
   }
 }
