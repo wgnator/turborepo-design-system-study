@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   // This tells ESLint to load the config from the package `eslint-config-acme`
-  extends: ["acme"],
+  extends: ["wgnator"],
   settings: {
     next: {
       rootDir: ["apps/*/"],
