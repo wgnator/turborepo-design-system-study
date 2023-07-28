@@ -6,7 +6,8 @@
     "dev": "start-storybook -p 6006",
     "build": "build-storybook --docs",
     "preview-storybook": "serve storybook-static",
-    "clean": "rm -rf .turbo && rm -rf node_modules"
+    "clean": "rm -rf .turbo && rm -rf node_modules",
+    "chromatic": "npx chromatic --project-token=chpt_baa7f2fadc405e4"
   },
   "dependencies": {
     "@wgnator/core": "0.0.0",
@@ -26,5 +27,7 @@
     "serve": "^13.0.4",
     "typescript": "^4.9.3",
     "vite": "^2.9.15"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "@wgnator/docs@0.0.0"
 }
