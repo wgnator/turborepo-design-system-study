@@ -175,13 +175,13 @@ const S = {
 
   `,
   Container: styled.div`
-    display: inline-flex;
-    padding: var(--density-buttons-pv, 4px) var(--density-buttons-ph, 8px);
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: var(--density-radius, 4px);
-    background: var(--primary-primary-500, #0087F7);
+display: inline-flex;
+padding: var(--density-buttons-pv, 4px) var(--density-buttons-ph, 8px);
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 0;
+background: var(--primary-primary-500, #0087F7);
   `,
   Text: styled.div`
     color: var(--primary-primary-50, #EFF3FF);
