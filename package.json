@@ -8,10 +8,11 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=docs^... && changeset publish"
+    "release": "turbo run build --filter=docs^... --filter=!eslint-config-wgnator && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
+    "chromatic": "^6.20.0",
     "eslint": "^8.29.0",
     "eslint-config-wgnator": "0.0.0",
     "prettier": "^2.8.0",
